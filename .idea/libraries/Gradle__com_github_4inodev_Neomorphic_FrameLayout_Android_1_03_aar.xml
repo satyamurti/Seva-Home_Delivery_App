@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.4inodev:Neomorphic-FrameLayout-Android:1.03@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/967e13d957a5932e5ba14969042ab55f/jetified-Neomorphic-FrameLayout-Android-1.03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/967e13d957a5932e5ba14969042ab55f/jetified-Neomorphic-FrameLayout-Android-1.03/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.4inodev/Neomorphic-FrameLayout-Android/1.03/322c49e81131c408a7b2a5f9c41bd8b20ad88a1/Neomorphic-FrameLayout-Android-1.03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

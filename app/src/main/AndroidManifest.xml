@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssduo.lockdownsevaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_appiconn"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="comm.OrdersDetails"></activity>
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.OTPVerificationActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.OrdersActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.CreatorsActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.KaradPethsActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.ConfirmOrderActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.AboutusActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.MessegingActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.RegisterFormActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.MainActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.MedicineActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.ShopChatActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.KiranaStoreActivity" />
+        <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.LoginFormActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

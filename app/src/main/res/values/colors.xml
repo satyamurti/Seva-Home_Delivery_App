@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="red">#F02A2A</color>
+    <color name="green">#22A981</color>
+
+    <color name="white">#ffffff</color>
+
+    <!--  Text colour     -->
+
+    <color name="background">#e1e6ec</color>
+
+
+    <!--  button colour     -->
+    <color name="highlight">#FFFFFF</color>
+
+
+    <!--  Actionbar colour     -->
+    <color name="shadowcolor">#D9DBDE</color>
+
+
+    <!--  color_cartimg_background     -->
+    <color name="dark">#31456a</color>
+
+    <!--  menufount colour     -->
+
+
+</resources>

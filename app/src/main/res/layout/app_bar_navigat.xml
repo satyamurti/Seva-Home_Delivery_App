@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageMainView"
+            android:layout_width="238dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="52dp"
+            android:padding="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageView
+            android:id="@+id/sideview"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/settingssidebar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="30dp"
+            android:animateLayoutChanges="true"
+            android:paddingTop="2dp"
+            android:paddingBottom="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageMainView">
+
+            <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+                android:id="@+id/xyz11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                app:neomorph_background_color="@color/background"
+                app:neomorph_corner_radius="25dp"
+                app:neomorph_elevation="2dp"
+                app:neomorph_highlight_color="@color/highlight"
+                app:neomorph_shadow_color="@color/shadowcolor"
+                app:neomorph_shadow_type="outer"
+                app:neomorph_view_type="rectangular">
+
+
+                <!--                <androidx.cardview.widget.CardView-->
+                <!--                    android:id="@+id/cardView21"-->
+                <!--                    android:layout_width="127dp"-->
+                <!--                    android:layout_height="94dp"-->
+                <!--                    app:cardCornerRadius="25dp"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintTop_toTopOf="parent">-->
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="groceryGo">
+
+                    <ImageView
+                        android:id="@+id/imageView31"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/grocery0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:text="@string/kirana_shop"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <!--                </androidx.cardview.widget.CardView>-->
+            </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+                android:id="@+id/xyz2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                app:neomorph_background_color="@color/background"
+                app:neomorph_corner_radius="25dp"
+                app:neomorph_elevation="2dp"
+                app:neomorph_highlight_color="@color/highlight"
+                app:neomorph_shadow_color="@color/shadowcolor"
+                app:neomorph_shadow_type="outer"
+                app:neomorph_view_type="rectangular">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="midicinego">
+
+                    <ImageView
+                        android:id="@+id/imageView662"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/medicines"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:text="@string/medical_shop"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView662" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <!--                </androidx.cardview.widget.CardView>-->
+
+            </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:animateLayoutChanges="true"
+            android:paddingTop="2dp"
+            android:paddingBottom="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+                android:id="@+id/xyz1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                app:neomorph_background_color="@color/background"
+                app:neomorph_corner_radius="25dp"
+                app:neomorph_elevation="2dp"
+                app:neomorph_highlight_color="@color/highlight"
+                app:neomorph_shadow_color="@color/shadowcolor"
+                app:neomorph_shadow_type="outer"
+                app:neomorph_view_type="rectangular">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/grocery"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:text="@string/vegitables"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+            <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+                android:id="@+id/xyz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                app:neomorph_background_color="@color/background"
+                app:neomorph_corner_radius="25dp"
+                app:neomorph_elevation="2dp"
+                app:neomorph_highlight_color="@color/highlight"
+                app:neomorph_shadow_color="@color/shadowcolor"
+                app:neomorph_shadow_type="outer"
+                app:neomorph_view_type="rectangular">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView66"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/grocery1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:text="@string/hotel_parsel"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView66" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <!--                </androidx.cardview.widget.CardView>-->
+
+            </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/product_bold"
+            android:text="@string/hello"
+            android:textColor="#000"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/location"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewKarad"
+            app:layout_constraintEnd_toStartOf="@+id/textViewKarad"
+            app:layout_constraintTop_toTopOf="@+id/textViewKarad"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textViewKarad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/productlight"
+            android:text="@string/karad"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

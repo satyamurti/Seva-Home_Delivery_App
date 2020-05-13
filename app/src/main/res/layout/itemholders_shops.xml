@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="20dp"
+    app:cardBackgroundColor="#F4F4F4"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="376dp"
+        android:layout_height="135dp"
+        android:background="#ececec">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tvShopImage"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.49"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/tvShopName"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/productbold"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/tvShopImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="shops" />
+
+        <TextView
+            android:id="@+id/tvShopAddress"
+            android:layout_width="223dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="32dp"
+            android:text="@string/bheda_chowk_shaniwar_peth_karad"
+            android:textColor="#353535"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tvShopImage"
+            app:layout_constraintTop_toBottomOf="@+id/tvShopName" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
