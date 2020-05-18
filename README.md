@@ -17,9 +17,8 @@
  
 ## 🚀 Tech and Tools Used
 
-* Firebase Database
 * Chat System is developed using Firebase Realtime Database
-* Firbase Auth
+* Firebase Auth
 * Android Studio
 * LottieFiles
 
