@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "492686202441",
+    "firebase_url": "https://lockdown-seva-app.firebaseio.com",
+    "project_id": "lockdown-seva-app",
+    "storage_bucket": "lockdown-seva-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492686202441:android:293be06d5c22f4de159198",
+        "android_client_info": {
+          "package_name": "com.mrspdd.lockdownsevaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492686202441-6v4a8cq8qge6rm7fh96tnppl7rtc2kq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqajNTw_8UWXNk4wt4b1eDMuKeZdoPmZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492686202441-6v4a8cq8qge6rm7fh96tnppl7rtc2kq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492686202441:android:1a82ac42cd86c7b6159198",
+        "android_client_info": {
+          "package_name": "com.ssduo.lockdownsevaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492686202441-6v4a8cq8qge6rm7fh96tnppl7rtc2kq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqajNTw_8UWXNk4wt4b1eDMuKeZdoPmZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492686202441-6v4a8cq8qge6rm7fh96tnppl7rtc2kq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492686202441:android:785c56df4e3176b9159198",
+        "android_client_info": {
+          "package_name": "com.ssduo.sevaappshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492686202441-6v4a8cq8qge6rm7fh96tnppl7rtc2kq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqajNTw_8UWXNk4wt4b1eDMuKeZdoPmZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492686202441-6v4a8cq8qge6rm7fh96tnppl7rtc2kq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

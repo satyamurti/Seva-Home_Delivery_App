@@ -17,7 +17,6 @@
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="comm.OrdersDetails"></activity>
         <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.OTPVerificationActivity" />
         <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.OrdersActivity" />
         <activity android:name="comm.mrspdd.lockdownsevaapp.Ui.Activities.CreatorsActivity" />

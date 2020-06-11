@@ -32,16 +32,16 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.70"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.getbase:floatingactionbutton:1.10.1'
     implementation 'com.airbnb.android:lottie:3.4.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'de.hdodenhof:circleimageview:3.0.1'
-    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.github.florent37:materialtextfield:1.0.7'
     //noinspection GradleCompatible
@@ -55,13 +55,13 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.firebase:firebase-client-android:2.4.1+'
     implementation 'com.android.support:multidex:1.0.3'
-    implementation 'androidx.navigation:navigation-fragment:2.2.1'
-    implementation 'androidx.navigation:navigation-ui:2.2.1'
+    implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'androidx.navigation:navigation-ui:2.2.2'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 //    implementation 'com.google.firebase:firebase-analytics:17.3.0'
     implementation 'com.firebaseui:firebase-ui-database:5.0.0'
 
     //   implementation 'com.google.firebase:firebase-messaging:20.1.5'
-    implementation 'com.google.firebase:firebase-messaging:20.1.5'
-    implementation 'com.google.firebase:firebase-auth:19.3.0'
+    implementation 'com.google.firebase:firebase-messaging:20.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
 }

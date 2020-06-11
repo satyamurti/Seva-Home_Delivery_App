@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lockdown Seva App.iml" filepath="$PROJECT_DIR$/Lockdown Seva App.iml" group="Lockdown Seva App" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lockdown_Seva_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Lockdown_Seva_App.iml" group="Lockdown_Seva_App" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Lockdown Seva App/app" />
     </modules>
   </component>

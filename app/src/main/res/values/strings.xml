@@ -1,16 +1,8 @@
 <resources>
     <string name="app_name">Karad Taluka Seva App</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="register">Register</string>
-    <string name="login">Login</string>
 
     <!--Navigation drawer items-->
-    <string name="send_otp">Send OTP</string>
-
-
     <string name="action_settings">Settings</string>
 
     <string name="confirm_order">Confirm Order</string>
@@ -22,7 +14,6 @@
     <string name="phone_number">Phone Number</string>
     <string name="send_otp">Send OTP</string>
     <string name="medicine">Medicine,</string>
-    <string name="karad">Karad</string>
     <string name="verify_otp">Verify OTP</string>
     <string name="headmainimage">HeadMainImage</string>
     <string name="enter_otp">Enter OTP</string>
@@ -40,9 +31,6 @@
     <string name="vegitables">Vegitables</string>
     <string name="hotel_parsel">Hotel Parsel</string>
     <string name="hello">Hello,</string>
-    <string name="karad">Karad</string>
-    <string name="bheda_chowk_shaniwar_peth_karad">Bheda Chowk,Shaniwar peth, Karad</string>
-    <string name="bheda_chowk_shaniwar_peth_karad">Bheda Chowk,Shaniwar peth, Karad</string>
     <string name="send_photo">Send Photo</string>
     <string name="send_message">Send Message</string>
     <string name="call_shop">Call Shop</string>
