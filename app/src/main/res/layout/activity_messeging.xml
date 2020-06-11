@@ -26,12 +26,13 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <EditText
-
             android:id="@+id/new_message"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="100"
-            android:autofillHints="Enter Message" />
+            android:autofillHints="Enter Message"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
 
         <Button
             android:id="@+id/send_message"

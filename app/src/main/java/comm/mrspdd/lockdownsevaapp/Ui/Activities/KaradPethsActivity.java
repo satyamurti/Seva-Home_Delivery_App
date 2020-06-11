@@ -9,7 +9,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.ssduo.lockdownsevaapp.R;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class KaradPethsActivity extends AppCompatActivity {
     String name, phone, address, Category;
     Bundle basket;

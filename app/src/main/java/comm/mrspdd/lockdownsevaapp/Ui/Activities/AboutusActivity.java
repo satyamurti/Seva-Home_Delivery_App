@@ -10,6 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ssduo.lockdownsevaapp.R;
 
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class AboutusActivity extends AppCompatActivity {
 
     @Override

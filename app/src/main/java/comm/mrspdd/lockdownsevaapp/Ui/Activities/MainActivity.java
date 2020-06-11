@@ -33,7 +33,9 @@ import com.ssduo.lockdownsevaapp.R;
 
 import java.util.ArrayList;
 import java.util.List;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class MainActivity extends AppCompatActivity {
     DatabaseReference databaseStudent;
     private DrawerLayout dl;

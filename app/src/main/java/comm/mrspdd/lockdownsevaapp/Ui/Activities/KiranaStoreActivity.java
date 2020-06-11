@@ -23,10 +23,12 @@ import com.ssduo.lockdownsevaapp.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import comm.mrspdd.lockdownsevaapp.Models.ShopsModelClass;
 import comm.mrspdd.lockdownsevaapp.Adapters.ShopsViewsAdapter;
+import comm.mrspdd.lockdownsevaapp.Models.ShopsModelClass;
 import comm.mrspdd.lockdownsevaapp.customLoadingBar;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class KiranaStoreActivity extends AppCompatActivity implements ShopsViewsAdapter.OnNoteListener {
     private RecyclerView mRecyclerView;
     comm.mrspdd.lockdownsevaapp.customLoadingBar customLoadingBar = new customLoadingBar(this);

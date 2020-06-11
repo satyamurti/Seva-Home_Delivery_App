@@ -22,9 +22,11 @@ import com.ssduo.lockdownsevaapp.R;
 import java.util.ArrayList;
 import java.util.Date;
 
-import comm.mrspdd.lockdownsevaapp.Models.MessageModelClass;
 import comm.mrspdd.lockdownsevaapp.MessegingDataSource;
-
+import comm.mrspdd.lockdownsevaapp.Models.MessageModelClass;
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class MessegingActivity extends AppCompatActivity implements View.OnClickListener,
         MessegingDataSource.MessagesCallbacks {
     public static final String USER_EXTRA = "USER";

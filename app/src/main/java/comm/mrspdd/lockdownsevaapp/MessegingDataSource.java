@@ -15,7 +15,9 @@ import java.util.Date;
 import java.util.HashMap;
 
 import comm.mrspdd.lockdownsevaapp.Models.MessageModelClass;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class MessegingDataSource {
     private static final DatabaseReference sRef = FirebaseDatabase.getInstance().getReference().child("ClientShopMessages")  ;
     private static SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddmmss");
@@ -91,6 +93,6 @@ public class MessegingDataSource {
 
 
     public interface MessagesCallbacks{
-        public void onMessageAdded(MessageModelClass message);
+        void onMessageAdded(MessageModelClass message);
     }
 }

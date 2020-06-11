@@ -15,6 +15,6 @@
         android:padding="4dp"
         app:lottie_fileName="bicicletadelivery.json"
         app:lottie_loop="true"
-        app:lottie_autoPlay="true"></com.airbnb.lottie.LottieAnimationView>
+        app:lottie_autoPlay="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

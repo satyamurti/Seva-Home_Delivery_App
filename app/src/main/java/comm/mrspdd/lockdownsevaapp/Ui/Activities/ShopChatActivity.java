@@ -37,7 +37,9 @@ import com.ssduo.lockdownsevaapp.R;
 import java.io.ByteArrayOutputStream;
 
 import comm.mrspdd.lockdownsevaapp.customLoadingBar;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class ShopChatActivity extends AppCompatActivity {
     private ProgressBar mProgressBar;
     TextView tvProgrss;
@@ -89,7 +91,7 @@ public class ShopChatActivity extends AppCompatActivity {
         tvshopname.setText(shopname);
         tvshopaddress.setText(shopaddress);
         ref = FirebaseDatabase.getInstance().getReference();
-        DatabaseReference dbuser = ref.child("Shops").child(Category).child(pethname).child(phone.toString());
+        DatabaseReference dbuser = ref.child("Shops").child(Category).child(pethname).child(phone);
         dbuser.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -212,7 +214,7 @@ public class ShopChatActivity extends AppCompatActivity {
                     downloadURL = String.valueOf(downloadUrl222);
                     tvProgrss.append(" File Uploaded");
                     mProgressBar.setVisibility(View.INVISIBLE);
-                    Toast.makeText(ShopChatActivity.this, "Photo sent to Shop", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ShopChatActivity.this, R.string.fdd, Toast.LENGTH_SHORT).show();
 //                    Log.d("satya", downloadURL.toString());
                     refImageurl = mDatabaseRef.child("Shops").child(Category).child(pethname).child(shopphone).child("orders");
                     refImageurl.child(phone).child("imageurl").setValue(downloadURL);

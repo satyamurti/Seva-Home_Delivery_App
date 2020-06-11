@@ -30,7 +30,9 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class OTPVerificationActivity extends AppCompatActivity {
 
     String phoneNo;
@@ -55,12 +57,7 @@ public class OTPVerificationActivity extends AppCompatActivity {
         databaseStudent.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.child("Customers").child(phoneNo).exists()) {
-
-                    Hack = true;
-                } else {
-                    Hack = false;
-                }
+                Hack = dataSnapshot.child("Customers").child(phoneNo).exists();
             }
 
             @Override

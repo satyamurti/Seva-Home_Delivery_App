@@ -13,7 +13,9 @@ import com.ssduo.lockdownsevaapp.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class ConfirmOrderActivity extends AppCompatActivity {
     private DatabaseReference mDatabaseRef, ref;
     String shopname, shopimage, shopaddress, shopphone;

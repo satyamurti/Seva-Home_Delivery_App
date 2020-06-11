@@ -21,12 +21,23 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
     buildTypes {
+
         release {
+            signingConfigs{
+                project {
+                    keyAlias 'key0'
+                    keyPassword '23042002'
+                    storeFile file('D:\\SPD\\SevaAppUdacityKey.jks')
+                    storePassword '23042002'
+                }
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
 
 }
 

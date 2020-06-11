@@ -32,7 +32,8 @@
         android:layout_above="@+id/bottomNavBar"
         android:layout_gravity="left"
         app:headerLayout="@layout/nav_header"
-        app:menu="@menu/navigation_menu" />
+        app:menu="@menu/navigation_menu"
+        tools:ignore="RtlHardcoded" />
 
 
 

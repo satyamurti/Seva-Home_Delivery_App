@@ -21,7 +21,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import comm.mrspdd.lockdownsevaapp.customLoadingBar;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class LoginFormActivity extends AppCompatActivity {
     Button login;
     DatabaseReference ref;

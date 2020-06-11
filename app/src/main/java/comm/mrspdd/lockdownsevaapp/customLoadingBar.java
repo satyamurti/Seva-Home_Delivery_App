@@ -6,7 +6,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 
 import com.ssduo.lockdownsevaapp.R;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class customLoadingBar {
     Activity activity;
     AlertDialog dialog;

@@ -4,12 +4,12 @@
     <item
         android:id="@+id/action_home"
         android:icon="@drawable/home"
-        android:title="Home" />
+        android:title="@string/home" />
 
 
     <item
         android:id="@+id/action_messages"
         android:icon="@drawable/messages"
-        android:title="Messages" />
+        android:title="@string/messages" />
 
 </menu>

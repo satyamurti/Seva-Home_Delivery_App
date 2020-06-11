@@ -39,6 +39,15 @@
     <string name="_100">100%</string>
     <string name="bheda_chowk_shaniwar_peth_karad">Bheda Chowk,Shaniwar peth, Karad</string>
     <string name="hello_world_this_is_mulla_from_mars">Hello World This is Mulla From MArs</string>
+    <string name="orders">Orders</string>
+    <string name="order_details">Order Details</string>
+    <string name="klp_ghar_seva_app">KLP Ghar Seva App</string>
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="settings">Settings</string>
+    <string name="order_history">Order History</string>
+    <string name="log_out">Log Out</string>
+    <string name="fdd">Photo sent to Shop</string>
 
     <array name="peths">
         <item>Select Your Area</item>

@@ -29,7 +29,8 @@
         android:src="@drawable/registration_illu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
 
     <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
         android:id="@+id/xyz"
@@ -60,7 +61,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/productlight"
                 android:hint="@string/enter_your_name"
-                android:textColor="@color/dark" />
+                android:textColor="@color/dark"
+                android:autofillHints=""
+                android:inputType="text" />
         </com.github.florent37.materialtextfield.MaterialTextField>
     </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
 
@@ -94,7 +97,8 @@
                 android:fontFamily="@font/productlight"
                 android:hint="@string/your_address_of_delivery"
                 android:inputType="textLongMessage"
-                android:textColor="@color/dark" />
+                android:textColor="@color/dark"
+                tools:ignore="Autofill" />
 
         </com.github.florent37.materialtextfield.MaterialTextField>
     </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>

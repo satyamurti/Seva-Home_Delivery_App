@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="bottom"
@@ -17,14 +18,15 @@
         android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:paddingTop="4dp"
-        app:srcCompat="@drawable/grocery2" />
+        app:srcCompat="@drawable/grocery2"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/product_bold"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="KLP Ghar Seva App"
+        android:text="@string/klp_ghar_seva_app"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000"
         android:textSize="20sp" />

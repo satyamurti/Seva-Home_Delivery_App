@@ -1,7 +1,10 @@
 package comm.mrspdd.lockdownsevaapp.Ui.Activities;
 
+import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,6 +21,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.ssduo.lockdownsevaapp.BuildConfig;
 import com.ssduo.lockdownsevaapp.R;
 
 import java.util.ArrayList;
@@ -25,10 +29,14 @@ import java.util.List;
 
 import comm.mrspdd.lockdownsevaapp.Adapters.OrderHistoryViewsAdapter;
 import comm.mrspdd.lockdownsevaapp.Models.OrderHistoryModelClass;
+import comm.mrspdd.lockdownsevaapp.Util.COnsty;
+import comm.mrspdd.lockdownsevaapp.WidgetForInDevice;
 import comm.mrspdd.lockdownsevaapp.customLoadingBar;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class OrdersActivity extends AppCompatActivity implements OrderHistoryViewsAdapter.OnNoteListener {
-
+    private SharedPreferences sharedPreferences;
     private DatabaseReference mDatabaseRef, ref;
     comm.mrspdd.lockdownsevaapp.customLoadingBar customLoadingBar = new customLoadingBar(this);
     String Category ,Peth;
@@ -43,7 +51,7 @@ public class OrdersActivity extends AppCompatActivity implements OrderHistoryVie
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orders);
         shops = new ArrayList<>();
-
+        sharedPreferences = getSharedPreferences(BuildConfig.APPLICATION_ID, MODE_PRIVATE);
         Bundle bundle1 = getIntent().getExtras();
         Boolean Hack1;
         phone = bundle1.getString("phone");
@@ -63,7 +71,7 @@ public class OrdersActivity extends AppCompatActivity implements OrderHistoryVie
         customLoadingBar.startLoader();
 
         mDatabaseRef = FirebaseDatabase.getInstance().getReference();
-        ref = mDatabaseRef.child("OrdersActivity").child(Category.toString()).child(phone);
+        ref = mDatabaseRef.child("OrdersActivity").child(Category).child(phone);
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -145,4 +153,19 @@ public class OrdersActivity extends AppCompatActivity implements OrderHistoryVie
     public void ChangeCategory(View view) {
         SingleChoice();
     }
+
+    public void go(View view) {
+        sharedPreferences.edit()
+                .putInt(COnsty.P_ID, 1)
+                .putString(COnsty.P_TITLE, "Order SYX Medical Store")
+                .putString(COnsty.CONTENT_2703,"Status : Pending")
+                .apply();
+        ComponentName cpn = new ComponentName(this, WidgetForInDevice.class);
+        AppWidgetManager apwn = AppWidgetManager.getInstance(this);
+        int[] mymanyids = apwn.getAppWidgetIds(cpn);
+        WidgetForInDevice widgetForInDevice = new WidgetForInDevice();
+        widgetForInDevice.onUpdate(this, apwn, mymanyids);
+    }
+
+
 }

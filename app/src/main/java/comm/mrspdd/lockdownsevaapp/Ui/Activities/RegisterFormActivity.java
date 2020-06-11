@@ -17,7 +17,9 @@ import com.google.firebase.database.ValueEventListener;
 import com.ssduo.lockdownsevaapp.R;
 
 import comm.mrspdd.lockdownsevaapp.Models.CustomerModelClass;
-
+///////////////////////////////////////////////////////////////////////////
+// Made with ❤  by Satyamurti
+///////////////////////////////////////////////////////////////////////////
 public class RegisterFormActivity extends AppCompatActivity {
     EditText Cname, Caddress;
     String address, name;
