@@ -1,0 +1,12 @@
+
+m	java:S116"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²îÀÔıÿÿÿÿ
+h	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¢»µøÿÿÿÿ
+@
+java:S1659"%Declare "address" on a separate line.(²îÀÔıÿÿÿÿ
+F
+java:S1172+"+Remove this unused method parameter "view".(†¢»µøÿÿÿÿ
+>
+java:S1659"#Declare "phone" on a separate line.(²îÀÔıÿÿÿÿ
+A
+java:S1659"&Declare "Category" on a separate line.(²îÀÔıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ

@@ -1,0 +1,39 @@
+
+;
+java:S1659"&Declare "pethname" on a separate line.(ã®á0
+A
+java:S1172F"+Remove this unused method parameter "view".(™¶Û¸
+[
+java:S1192$"FDefine a constant instead of duplicating this literal "phone" 3 times.(Á×÷x
+B
+java:S1659"'Declare "shopphone" on a separate line.(©ĞÕÒûÿÿÿÿ
+c	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÄ¶
+B
+java:S1659"'Declare "shopimage" on a separate line.(©ĞÕÒûÿÿÿÿ
+^
+java:S1192%"HDefine a constant instead of duplicating this literal "address" 3 times.(Èªã”
+g	java:S116"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã®á0
+d
+java:S1192'"IDefine a constant instead of duplicating this literal "Category" 3 times.(ù¶êÑøÿÿÿÿ
+7
+java:S1659"!Declare "ref" on a separate line.(ÑÖä×
+d
+java:S1192"IDefine a constant instead of duplicating this literal "ShopName" 3 times.(€‹óøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+8
+java:S1659"#Declare "phone" on a separate line.(ã®á0
+D
+java:S1659")Declare "shopaddress" on a separate line.(©ĞÕÒûÿÿÿÿ
+e
+java:S1192!"JDefine a constant instead of duplicating this literal "ShopImage" 3 times.(êÕñáøÿÿÿÿ
+:
+java:S1659"%Declare "address" on a separate line.(ã®á0
+;
+java:S1659"&Declare "Category" on a separate line.(ã®á0
+A
+java:S1172*"+Remove this unused method parameter "view".(ÚÄ¶
+c	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¶Û¸
+`
+java:S1192""JDefine a constant instead of duplicating this literal "ShopPhone" 3 times.(ã’õè
+a
+java:S1192 "LDefine a constant instead of duplicating this literal "ShopAddress" 3 times.(Äıî

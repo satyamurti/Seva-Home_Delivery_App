@@ -1,0 +1,25 @@
+
+@
+java:S1659$"%Declare "address" on a separate line.(ì•İÚüÿÿÿÿ
+n
+java:S1450*"XRemove the "mListener" field and declare it as a local variable in the relevant methods.(ÅÊî“
+C
+java:S1068*"-Remove this unused "mListener" private field.(ÅÊî“
+B
+java:S1659#"'Declare "shopimage" on a separate line.(©ĞÕÒûÿÿÿÿ
+w
+java:S3923‘"[Remove this conditional structure or edit its code blocks so that they're not all the same.(Ğúú˜ûÿÿÿÿ
+w
+java:S3923‰"[Remove this conditional structure or edit its code blocks so that they're not all the same.(Ğúú˜ûÿÿÿÿ
+>
+java:S1659$"#Declare "phone" on a separate line.(ì•İÚüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+O
+java:S1068("4Remove this unused "mLastMessageDate" private field.(óÔ«Óúÿÿÿÿ
+D
+java:S1659#")Declare "shopaddress" on a separate line.(©ĞÕÒûÿÿÿÿ
+m
+java:S1450'"XRemove the "mListView" field and declare it as a local variable in the relevant methods.(‡¾÷\
+B
+java:S1659#"'Declare "shopphone" on a separate line.(©ĞÕÒûÿÿÿÿ
+>	java:S108r")Either remove or fill this block of code.(ôÒø‚

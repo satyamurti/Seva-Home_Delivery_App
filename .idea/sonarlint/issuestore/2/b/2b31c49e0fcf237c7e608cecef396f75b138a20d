@@ -1,0 +1,71 @@
+
+B
+java:S1659:"'Declare "shopphone" on a separate line.(©ĞÕÒûÿÿÿÿ
+P
+java:S1117‚":Rename "intent" which hides the field declared at line 53.(˜”…U
+b
+java:S1854®"FRemove this useless assignment to local variable "mountainImagesRef2".(øøß·ùÿÿÿÿ
+@
+java:S2201±"*The return value of "equals" must be used.(ëÑû
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(Ùì²ù
+W	java:S125¥"<This block of commented-out lines of code should be removed.(ÿúŒ…şÿÿÿÿ
+V
+java:S1117á":Rename "intent" which hides the field declared at line 53.(¶ƒ‘¨ùÿÿÿÿ
+B
+java:S1659:"'Declare "shopimage" on a separate line.(©ĞÕÒûÿÿÿÿ
+B
+java:S1172ú"+Remove this unused method parameter "view".(€›û«
+=
+java:S1659;"'Declare "tvMessage" on a separate line.(ºÉîÛ
+V
+java:S1117•":Rename "intent" which hides the field declared at line 53.(ÍÊ¼Éøÿÿÿÿ
+n
+java:S3252ş"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(õ°á
+h	java:S1169"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıäëÎ
+?
+java:S1659=")Declare "refImageurl" on a separate line.(ùêÄš
+B
+java:S1172"+Remove this unused method parameter "view".(Óµ¶ß
+d
+java:S1192H"IDefine a constant instead of duplicating this literal "ShopName" 3 times.(€‹óøÿÿÿÿ
+S
+java:S1481®"7Remove this unused "mountainImagesRef2" local variable.(øøß·ùÿÿÿÿ
+B
+java:S1172‘"+Remove this unused method parameter "view".(“¾å„
+W	java:S125´"<This block of commented-out lines of code should be removed.(±æ¥³üÿÿÿÿ
+k	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÏÄ¢ûÿÿÿÿ
+`
+java:S1192K"JDefine a constant instead of duplicating this literal "ShopPhone" 3 times.(ã’õè
+@
+java:S16590"%Declare "address" on a separate line.(ì•İÚüÿÿÿÿ
+D
+java:S1659:")Declare "shopaddress" on a separate line.(©ĞÕÒûÿÿÿÿ
+E
+java:S1481G"*Remove this unused "Hack1" local variable.(ÜÏÄ¢ûÿÿÿÿ
+[
+java:S1192M"FDefine a constant instead of duplicating this literal "phone" 6 times.(Á×÷x
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+>
+java:S16590"#Declare "phone" on a separate line.(ì•İÚüÿÿÿÿ
+a
+java:S1192I"LDefine a constant instead of duplicating this literal "ShopAddress" 3 times.(Äıî
+A
+java:S1659;"+Declare "tvshopaddress" on a separate line.(ºÉîÛ
+7
+java:S1659="!Declare "ref" on a separate line.(ùêÄš
+a
+java:S1192^"FDefine a constant instead of duplicating this literal "Shops" 3 times.( „ş®ûÿÿÿÿ
+d
+java:S1192b"IDefine a constant instead of duplicating this literal "imageurl" 3 times.(×Ô‘¥ûÿÿÿÿ
+e
+java:S1192J"JDefine a constant instead of duplicating this literal "ShopImage" 3 times.(êÕñáøÿÿÿÿ
+A
+java:S2201²"*The return value of "equals" must be used.(á±Şà
+d	java:S100ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€›û«
+^
+java:S2184Ä"BCast one of the operands of this division operation to a "double".(€®÷Íÿÿÿÿÿ
+Q	java:S125…"<This block of commented-out lines of code should be removed.(†ş´V
+E
+java:S1659<"*Declare "igdialbutton" on a separate line.(²½™úÿÿÿÿ
+^
+java:S1192N"HDefine a constant instead of duplicating this literal "address" 5 times.(Èªã”

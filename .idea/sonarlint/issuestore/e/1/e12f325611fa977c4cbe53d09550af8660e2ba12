@@ -1,35 +1,33 @@
 
-d	java:S116("ORename this field "Peth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹³¹„
-d	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­öÉÊ
-N
-java:S1172›"+Remove this unused method parameter "view".(´Õ˜ùÿÿÿÿ8ÕÔ§ª.
-B
-java:S1659-"'Declare "shopimage" on a separate line.(©ĞÕÒûÿÿÿÿ
+h	java:S100}"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìí×òüÿÿÿÿ
+d	java:S116*"ORename this field "Peth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹³¹„
 8
-java:S1659(""Declare "Peth" on a separate line.(¹³¹„
-k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÏÄ¢ûÿÿÿÿ
-B
-java:S1172—"+Remove this unused method parameter "view".(­öÉÊ
-a
-java:S1858H"K"Category" is already a string, there's no need to call "toString()" on it.(‘èÉ
-=
-java:S1659,""Declare "name" on a separate line.(¾—òâúÿÿÿÿ
-h
-java:S1450&"RRemove the "ref" field and declare it as a local variable in the relevant methods.(ÑÖä×
-E
-java:S14816"*Remove this unused "Hack1" local variable.(ÜÏÄ¢ûÿÿÿÿ
-r
-java:S1450*"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(ñù…Åùÿÿÿÿ
-h	java:S116("SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹³¹„
-@
-java:S1659,"%Declare "address" on a separate line.(¾—òâúÿÿÿÿ
-h	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìí×òüÿÿÿÿ
-7
-java:S1659&"!Declare "ref" on a separate line.(ÑÖä×
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+java:S1659*""Declare "Peth" on a separate line.(¹³¹„
 D
-java:S1659-")Declare "shopaddress" on a separate line.(©ĞÕÒûÿÿÿÿ
+java:S1659/")Declare "shopaddress" on a separate line.(©ĞÕÒûÿÿÿÿ
+7
+java:S1659("!Declare "ref" on a separate line.(ÑÖä×
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
 q
-java:S1450&"[Remove the "mDatabaseRef" field and declare it as a local variable in the relevant methods.(ÑÖä×
+java:S1450("[Remove the "mDatabaseRef" field and declare it as a local variable in the relevant methods.(ÑÖä×
+k	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÏÄ¢ûÿÿÿÿ
+E
+java:S14818"*Remove this unused "Hack1" local variable.(ÜÏÄ¢ûÿÿÿÿ
+d	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­öÉÊ
+h	java:S116*"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹³¹„
+@
+java:S1659."%Declare "address" on a separate line.(¾—òâúÿÿÿÿ
+h
+java:S1450("RRemove the "ref" field and declare it as a local variable in the relevant methods.(ÑÖä×
 B
-java:S1659-"'Declare "shopphone" on a separate line.(©ĞÕÒûÿÿÿÿ
+java:S1659/"'Declare "shopimage" on a separate line.(©ĞÕÒûÿÿÿÿ
+B
+java:S1659/"'Declare "shopphone" on a separate line.(©ĞÕÒûÿÿÿÿ
+=
+java:S1659.""Declare "name" on a separate line.(¾—òâúÿÿÿÿ
+B
+java:S1172™"+Remove this unused method parameter "view".(­öÉÊ
+N
+java:S1172"+Remove this unused method parameter "view".(´Õ˜ùÿÿÿÿ8ÕÔ§ª.
+r
+java:S1450,"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(ñù…Åùÿÿÿÿ

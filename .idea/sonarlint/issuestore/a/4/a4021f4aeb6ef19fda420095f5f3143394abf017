@@ -1,0 +1,19 @@
+
+m
+java:S1450#"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(ÍÖß
+f
+java:S1301Z"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+<	java:S131Z""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
+h
+java:S1450'"RRemove the "ref" field and declare it as a local variable in the relevant methods.(ÑÖä×
+@
+java:S1659+"%Declare "address" on a separate line.(ì•İÚüÿÿÿÿ
+V	java:S125I"<This block of commented-out lines of code should be removed.(‰ÇÔàûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+>
+java:S1659+"#Declare "phone" on a separate line.(ì•İÚüÿÿÿÿ
+q
+java:S1450'"[Remove the "mDatabaseRef" field and declare it as a local variable in the relevant methods.(ÑÖä×
+m	java:S116*"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìà·¶şÿÿÿÿ
+7
+java:S1659'"!Declare "ref" on a separate line.(ÑÖä×

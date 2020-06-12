@@ -29,7 +29,7 @@ android {
                 project {
                     keyAlias 'key0'
                     keyPassword '23042002'
-                    storeFile file('D:\\SPD\\SevaAppUdacityKey.jks')
+                    storeFile file('keystore/SevaAppUdacityKey.jks')
                     storePassword '23042002'
                 }
             }

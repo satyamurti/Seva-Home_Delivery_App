@@ -11,91 +11,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2680d70e-1189-430f-bf59-d2391d355b21" name="Default Changelist" comment="Cleaned Up Project as suggested by Udacity Instructor">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_19_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_19_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_collection_17_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_20_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_installations_16_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_20_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68be92dac3fc506b88051e2166920d6ee86df7ef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c1d2a1927c01fa75a9b4c74ea8addcc06b327ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/838ee127c3d05a9fb74763419d6d2990f7db12db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e12f325611fa977c4cbe53d09550af8660e2ba12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea9cd1b2995063c163a0431cc4335c0eb0f7f25b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd8d34b142d02ec743a8efefefd2c097961666e9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Util/COnsty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/WidgetForInDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_widgets_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_aboutus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/recipe_widget_provider_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+    <list default="true" id="2680d70e-1189-430f-bf59-d2391d355b21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/keystore/SevaAppUdacityKey.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b3c7e29f61cede63147c234712d036b2903a4ba" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b3c7e29f61cede63147c234712d036b2903a4ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/838ee127c3d05a9fb74763419d6d2990f7db12db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e12f325611fa977c4cbe53d09550af8660e2ba12" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e12f325611fa977c4cbe53d09550af8660e2ba12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea9cd1b2995063c163a0431cc4335c0eb0f7f25b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea9cd1b2995063c163a0431cc4335c0eb0f7f25b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/Karad Taluka Seva App 2.0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/MessegingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/MessegingDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/AboutusActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/AboutusActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/ConfirmOrderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/ConfirmOrderActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/CreatorsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/CreatorsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/KaradPethsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/KaradPethsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/KiranaStoreActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/KiranaStoreActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/LoginFormActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/LoginFormActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/MedicineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/MedicineActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/MessegingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/MessegingActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/OTPVerificationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/OTPVerificationActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/OrdersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/OrdersActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/RegisterFormActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/RegisterFormActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/ShopChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/Ui/Activities/ShopChatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/customLoadingBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/comm/mrspdd/lockdownsevaapp/customLoadingBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_medicine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_medicine.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_orders.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_shops.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/activity_shops.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_aboutus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_aboutus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_form.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_medicine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_medicine.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_messeging.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_messeging.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_orders.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_form.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_shops.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shops.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_navigat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_navigat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_loading_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_loading_bar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shop_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shop_chat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +31,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="5e156ab4" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_XL_API_22" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -191,7 +117,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/keystore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -201,8 +127,12 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SPD\source-codes\LockdownSevaApp\app\keystore" />
+      <recent name="D:\SPD\source-codes\LockdownSevaApp\app\src\main\res\layout" />
+      <recent name="D:\SPD\source-codes\LockdownSevaApp\app\src\main\res" />
       <recent name="D:\source-codes\LockdownSevaApp\app\src\main\res\drawable" />
+      <recent name="D:\source-codes\LockdownSevaApp\app" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ssduo.lockdownsevaapp" />
@@ -217,12 +147,8 @@
       <recent name="comm.mrspdd.lockdownsevaapp" />
       <recent name="com.ssduo.lockdownsevaapp" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SPD\source-codes\LockdownSevaApp\app\src\main\res\layout" />
-      <recent name="D:\SPD\source-codes\LockdownSevaApp\app\src\main\res" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\source-codes\LockdownSevaApp\app\src\main\res\drawable" />
-      <recent name="D:\source-codes\LockdownSevaApp\app" />
-      <recent name="D:\source-codes\LockdownSevaApp\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -327,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591889803405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleaned Up Project as suggested by Udacity Instructor">
+      <created>1591908034773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591908034773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,17 +296,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="572" y="245" key="AndroidCreateXmlResourceDialog/0.0.1536.864@0.0.1536.864" timestamp="1591907676427" />
-    <state x="277" y="23" key="CommitChangelistDialog2" timestamp="1591907470002">
+    <state x="277" y="23" key="CommitChangelistDialog2" timestamp="1591908032411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="23" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591907470002" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1591906881696">
+    <state x="277" y="23" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591908032411" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1591908489939">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591906881696" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591889818777">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591908489939" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591908044988">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591889818777" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591908044988" />
   </component>
 </project>

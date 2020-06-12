@@ -1,35 +1,35 @@
 
-M
-java:S2696é"6Make the enclosing method "static" or remove this set.(é‘
-P
-java:S3516…"9Refactor this method to not always return the same value.(·¿°¬
 7
-java:S1659/"!Declare "ggg" on a separate line.(ñˆÆ†
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+java:S16591"!Declare "ggg" on a separate line.(ñˆÆ†
+P
+java:S3516‡"9Refactor this method to not always return the same value.(·¿°¬
 o
-java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈÜÆ
-@
-java:S16590"%Declare "address" on a separate line.(²îÀÔıÿÿÿÿ
-B
-java:S1172Ã"+Remove this unused method parameter "view".(¾“À…
-]
-java:S1192”"FDefine a constant instead of duplicating this literal "phone" 4 times.(£× 
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈÜÆ
+M
+java:S2696ë"6Make the enclosing method "static" or remove this set.(é‘
 A
-java:S1659,"&Declare "sideview" on a separate line.(Ğå§Âüÿÿÿÿ
-m	java:S1160"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²îÀÔıÿÿÿÿ
-8
-java:S1659.""Declare "ref1" on a separate line.(…÷şĞ
-m
-java:S3008*"WRename this field "back_pressed" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¼ÑÄ
-_
-java:S1192–"HDefine a constant instead of duplicating this literal "address" 4 times.(ºƒ¼¸
-F
-java:S5411Å"*Use the primitive boolean expression here.(†öõ«úÿÿÿÿ
+java:S16592"&Declare "Category" on a separate line.(²îÀÔıÿÿÿÿ
 >
-java:S16590"#Declare "phone" on a separate line.(²îÀÔıÿÿÿÿ
-A
-java:S16590"&Declare "Category" on a separate line.(²îÀÔıÿÿÿÿ
-B
-java:S1172Ò"+Remove this unused method parameter "view".(æéˆÅ
+java:S16592"#Declare "phone" on a separate line.(²îÀÔıÿÿÿÿ
 @
-java:S1659."*Declare "mDatabaseRef" on a separate line.(…÷şĞ
+java:S16590"*Declare "mDatabaseRef" on a separate line.(…÷şĞ
+B
+java:S1172Å"+Remove this unused method parameter "view".(¾“À…
+]
+java:S1192–"FDefine a constant instead of duplicating this literal "phone" 4 times.(£× 
+_
+java:S1192˜"HDefine a constant instead of duplicating this literal "address" 4 times.(ºƒ¼¸
+8
+java:S16590""Declare "ref1" on a separate line.(…÷şĞ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+B
+java:S1172Ô"+Remove this unused method parameter "view".(æéˆÅ
+m
+java:S3008,"WRename this field "back_pressed" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¼ÑÄ
+A
+java:S1659."&Declare "sideview" on a separate line.(Ğå§Âüÿÿÿÿ
+@
+java:S16592"%Declare "address" on a separate line.(²îÀÔıÿÿÿÿ
+F
+java:S5411Ç"*Use the primitive boolean expression here.(†öõ«úÿÿÿÿ
+m	java:S1162"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²îÀÔıÿÿÿÿ

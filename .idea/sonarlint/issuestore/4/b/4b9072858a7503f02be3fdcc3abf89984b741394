@@ -1,0 +1,30 @@
+
+G
+java:S1172‰"+Remove this unused method parameter "view".(¹†Ãıúÿÿÿÿ
+o
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈÜÆ
+V	java:S125W"<This block of commented-out lines of code should be removed.(°îôıÿÿÿÿ
+d
+java:S1871ƒ"MThis branch's code block is the same as the block for the branch on line 112.(å¥‡
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìé®ó
+<
+java:S1659""&Declare "password" on a separate line.(â´µ
+B
+java:S1172"+Remove this unused method parameter "view".(ìé®ó
+V	java:S125J"<This block of commented-out lines of code should be removed.(û¬ÿÿÿÿÿ
+V	java:S125v"<This block of commented-out lines of code should be removed.(¹ÉÂúÿÿÿÿ
+=
+java:S1659""Declare "pass" on a separate line.(©Åüøÿÿÿÿ
+V	java:S125N"<This block of commented-out lines of code should be removed.(ìÆí•şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³²ŸŞıÿÿÿÿ
+Q	java:S125e"<This block of commented-out lines of code should be removed.(ëØû™
+V	java:S125["<This block of commented-out lines of code should be removed.(ô¼Ï’øÿÿÿÿ
+Q	java:S125]"<This block of commented-out lines of code should be removed.(ÔÅú¤
+p
+java:S1104%"ZMake verificationBl a static final constant or non-public and provide accessors if needed.(‚µ»×
+Q	java:S125P"<This block of commented-out lines of code should be removed.(®ƒ÷
+V	java:S125_"<This block of commented-out lines of code should be removed.(åœéèşÿÿÿÿ
+V	java:S125k"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ
+i	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹†Ãıúÿÿÿÿ
+@
+java:S1659!"%Declare "basket1" on a separate line.(ËÒÄ¢ıÿÿÿÿ
